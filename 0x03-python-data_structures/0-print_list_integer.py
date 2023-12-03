@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-def print_list_integer(mu_list=[]):
+def print_list_integer(my_list=[]):
     for integers in my_list:
-        print('{:d}'.format(integer))
+        print("{:d}".format(integer))
