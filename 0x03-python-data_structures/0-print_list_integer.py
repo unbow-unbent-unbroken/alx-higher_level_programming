@@ -2,4 +2,4 @@
 
 def print_list_integer(mu_list=[]):
     for integers in my_list:
-        print("{}".format(integer))
+        print('{:d}'.format(integer))
