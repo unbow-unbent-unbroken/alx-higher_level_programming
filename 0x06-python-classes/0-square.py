@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 
-""" An empty Square"""
+
+"""An empty class Square that defines a square"""
+
 
 class Square:
-    """
-    Empty class Square  that defines a square.
-    A square is a flat shape that has four(4) equal sides
-    """
+    """Represents a square."""
     pass
