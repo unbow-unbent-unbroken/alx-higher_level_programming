@@ -1,0 +1,28 @@
+# Test Case 1: Adding two integers
+>>> from your_module import add_integer
+>>> add_integer(3, 5)
+8
+
+# Test Case 2: Adding an integer and a float
+>>> add_integer(2.5, 7)
+9
+
+# Test Case 3: Adding two floats
+>>> add_integer(1.5, 3.7)
+5
+
+# Test Case 4: Adding with default value for b
+>>> add_integer(10)
+108
+
+# Test Case 5: Handling invalid input (a is a string)
+>>> add_integer("invalid", 5)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer or b must be an integer
+
+# Test Case 6: Handling invalid input (b is a list)
+>>> add_integer(10, [5, 7])
+Traceback (most recent call last):
+...
+TypeError: a must be an integer or b must be an integer
