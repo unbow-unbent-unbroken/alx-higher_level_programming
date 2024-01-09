@@ -8,11 +8,13 @@ class BaseGeometry:
     """
     This class represent a base geometry
     """
+
     def area(self):
         """
         Raises an Exception indicating that the area method is not implemented.
         """
         raise Exception("area() is not implemented")
+    
     def interger_validator(self, name, value):
         """
         Validates the given value.
