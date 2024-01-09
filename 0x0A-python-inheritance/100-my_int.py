@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""this module defines a class MyInt that inherits from int"""
 
 class MyInt(int):
     """
@@ -10,10 +10,10 @@ class MyInt(int):
         """
         Overrides the == operator to invert its behavior.
         """
-        return not super().__eq__(other)
+        return self.real != other
 
     def __ne__(self, other):
         """
         Overrides the != operator to invert its behavior.
         """
-        return not super().__ne__(other)
+        return self.real == other
