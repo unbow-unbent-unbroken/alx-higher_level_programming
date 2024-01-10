@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Module Documentation: This  module define a function that reads text file.
-"""
+"""Module Documentation: This  module define a function that reads text file."""
 
 def read_file(filename=""):
     """
