@@ -3,7 +3,7 @@
 
 
 class MyInt(int):
-    """A class representing MyInt, which inherits from int with inverted == and != operators."""
+    """A class representing MyInt inverting == and != operators."""
 
     def __eq__(self, other):
         """Overrides the == operator to invert its behavior."""
