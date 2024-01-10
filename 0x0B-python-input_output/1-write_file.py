@@ -8,7 +8,8 @@ Module Documentation: This module contains a function that writes a string to a 
 def write_file(filename="", text=""):
     """Writes a text file (UTF8) to stdout."""
     with open(filename, w) as f:
-        print(f.write(text), end"")
+        f.write(text)
+        f.close()
 
 
 
