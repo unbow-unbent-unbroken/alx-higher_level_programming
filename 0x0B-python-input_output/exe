@@ -2,4 +2,9 @@
 
 chmod u+x *.py
 
-echo "Making file executable completed"
+echo "Making file(s) executable loading"
+echo "Loading."
+echo "Loading.."
+echo "Loading..."
+echo "Loading...."
+echo "completed"
