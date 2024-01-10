@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module Documentation: This module contains a function that writes a string to a text file and return the number of characters written."""
+"""This module contains a function that writes a string to a text file."""
 
 
 def write_file(filename="", text=""):
