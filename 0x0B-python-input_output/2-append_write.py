@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This module contains a function that appends a string at the end of a text file"""
+"""This module defines a file-appending function."""
 
 
 def append_write(filename="", text=""):
