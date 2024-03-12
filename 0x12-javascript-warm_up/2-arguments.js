@@ -11,5 +11,5 @@ else if (numArgs === 1)
 }
 else 
 {
-    console.log("Arguments found")
+    console.log("Arguments found");
 }
