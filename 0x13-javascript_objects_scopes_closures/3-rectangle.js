@@ -1,9 +1,7 @@
 #!/usr/bin/node
-
 /**
- * Defines a Rectangle
+ * Check the parameters provided
  */
-
 class Rectangle {
   constructor (w, h) {
     if (typeof w === 'number' && w > 0 && typeof h === 'number' && h > 0) {
@@ -14,12 +12,11 @@ class Rectangle {
 
   print () {
     for (let i = 0; i < this.height; i++) {
-      const row = '';
-      let j = 0;
-      while (j < this.width) {
+      let row = '';
+      for (let j = 0; j < this.width; j++) {
         row += 'X';
-        j++;
       }
+
       console.log(row);
     }
   }
