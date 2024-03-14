@@ -12,11 +12,13 @@ class Rectangle {
     }
   }
 
-  printRectangle () {
+  print () {
     for (let i = 0; i < this.height; i++) {
       const row = '';
-      for (let j = 0; j < this.width; j++) {
-        const row = +'X';
+      let j = 0;
+      while (j < this.width) {
+        row += 'X';
+        j++;
       }
       console.log(row);
     }
