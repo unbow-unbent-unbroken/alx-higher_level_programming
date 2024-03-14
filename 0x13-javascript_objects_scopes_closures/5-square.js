@@ -1,4 +1,4 @@
-#!/usr?bin/node
+#!/usr/bin/node
 
 /**
  * A Square class that inherits from 4-Rectangle.js
