@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "making files executable"
+echo ""
+chmod u+x *.js
+
+echo "Loading!"
+echo "Loading!!"
+echo "Loading!!!"
+echo ""
+echo "Done"
